@@ -1,0 +1,2 @@
+# Tetris
+Pololetní projekt- Tetris
