@@ -1,0 +1,19 @@
+/*hozeni vse co je v body doprostred*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/*zmena barvy canvasu+ohraniceni*/
+canvas {
+    background-color: blanchedalmond;
+    border: 2px solid #000;
+}
+
+/*zneviditelneni otravneho canvasu navic, ktery je soucasti p5 knihovny*/
+canvas.p5Canvas {
+    display: none;
+  }
